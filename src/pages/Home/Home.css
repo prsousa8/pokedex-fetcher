@@ -1,0 +1,41 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 38px;
+    padding-inline: 104px;
+}
+.historia{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: var(--color-white);
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: justify;
+    max-width: 100%;
+}
+
+.historia div{
+    margin-top: 40px;
+    display: flex;
+    gap: 70px;
+}
+
+@media(max-width: 450px){
+    main{
+        padding-inline: 30px;
+    }
+    .historia{
+        font-size: 1em;
+        padding: 30px;
+    }
+    .historia div{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .historia div img{
+        width: 50%;
+    }
+}

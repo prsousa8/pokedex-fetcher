@@ -1,0 +1,53 @@
+.campo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-white);
+    border-radius: 30px;
+    padding: 65px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h2{
+    color: var(--color-blue);
+    margin: 0;
+}
+
+#contatos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+.contato {
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-white);
+    font-weight: bold;
+}
+
+#linkedin{
+    background-color: #0A66C2;
+}
+
+#github{
+    background-color: black;
+}
+
+#instagram{
+    background: linear-gradient(#F9CE34,#EE2A7B,#6228D7);
+}
+
+@media(max-width: 450px){
+    .campo{
+        font-size: 1em;
+    }
+    #contatos{
+        flex-direction: column;
+    }
+}
