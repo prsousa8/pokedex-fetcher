@@ -5,13 +5,14 @@ const Header = () => {
     return (
         <header>
             <nav>
-                <Link to='/'><img src='../../assets/logo_pokedex.svg'/></Link>
+                <Link to='/'><img src='../../assets/logo_pokedex.svg' /></Link>
                 <ul>
-                    <li>
+                    <Link to='/pokemons'><li>
                         <img src='../../assets/pikachu_icon.svg' />
                         <p className='destaque'>Pokemons</p>
                     </li>
-                    <li><p className='destaque'>Sobre</p></li>
+                    </Link>
+                    <Link to='/sobre'><li><p className='destaque'>Sobre</p></li></Link>
                 </ul>
             </nav>
         </header>
