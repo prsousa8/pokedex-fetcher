@@ -35,5 +35,6 @@ ul li:nth-child(1){
 @media(max-width: 450px){
     nav{
         justify-content: center;
+        margin-inline: 0;
     }
 }
