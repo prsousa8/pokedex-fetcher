@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+<div align="center">
+  <h1> Pokémon Fetcher</h1>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="justify">Bem-vindo ao nosso site, onde você pode explorar o mundo fascinante dos Pokémon! Aqui, você encontrará informações detalhadas sobre seus personagens favoritos, desde seus nomes, habilidades especiais e características até curiosidades que vão surpreender até os fãs mais dedicados. Todos os dados dos Pokémon são extraídos diretamente da API oficial do <a href='https://pokeapi.co/' target='blank'>PokéAPI</a>, garantindo que você tenha acesso a informações atualizadas e precisas. Navegue, descubra e mergulhe no universo Pokémon de uma forma única e interativa!</p>
 
-## Available Scripts
 
-In the project directory, you can run:
+## Site Pokémon Fetcher 🤩
+<p align="justify"> Neste link você irá acessar e interagir com o site</p>
+- Link: <a href='https://pokedex-fetcher.vercel.app/'>Site Pokémon Fetcher</a>
 
-### `npm start`
+## Tecnologias e Ferramentas Utilizadas 🔧
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height="30" alt="css logo"/>
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="30" alt="nodejs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
+  <img width="12" />
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Para criar um ambiente adequado de desenvolvimento em React, executamos os seguintes passos
 
-### `npm test`
+### Instalação do NodeJS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- O React é construído com o Node.js, então você precisará instalá-lo primeiro. Vá para https://nodejs.org/ e baixe o instalador para o seu sistema operacional.
+- Siga as instruções do instalador para instalar o Node.js e o npm.
+- Verifique se o Node.js e o npm foram instalados corretamente executando os seguintes comandos no seu terminal:
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+~~~
+node -v
+npm -v
+~~~
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Editor de código
 
-### `npm run eject`
+Escolha um editor de código de sua preferência. Algumas opções populares incluem o Visual Studio Code, Sublime Text, Atom, entre outros. Você pode baixar e instalar o Visual Studio Code em https://code.visualstudio.com/.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Criação do Projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Utilizando o terminal, digite o seguinte comando para criação do projeto na pasta de escolha
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+~~~
+npx create-react-app nome-do-projeto
+~~~
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Entre na pasta do projeto
 
-## Learn More
+~~~
+cd nome-do-projeto
+~~~
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+E execute o projeto criado
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+~~~
+npm start
+~~~
 
-### Code Splitting
+### Instalação das bibliotecas usadas no projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+Biblioteca para criar e gerenciar as rotas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+~~~
+npm install react-router-dom
+~~~
 
-### Making a Progressive Web App
+## Executando o Projeto ⏳
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Para executar o projeto, realize as seguintes etapas:
 
-### Advanced Configuration
+### Clone do repositório
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Verifique se o git está instalado na sua máquina
+- Digite o comando via terminal
 
-### Deployment
+~~~
+git clone https://github.com/prsousa8/rickandmorty-fetcher.git
+~~~
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Instalação das dependências
 
-### `npm run build` fails to minify
+Utilize o seguinte comando para instalar todas as dependências necessárias para o funcionamento da aplicação
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+~~~
+npm install
+~~~
+
+### Execução
+
+Em seguida, digite o comando no terminal para executá-lo
+
+~~~
+npm start
+~~~
+
+Por fim, copie e cole o link gerado no terminal no seu navegador
