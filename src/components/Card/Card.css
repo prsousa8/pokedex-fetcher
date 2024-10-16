@@ -1,0 +1,48 @@
+#pokemon{
+    display: flex;
+    flex-direction: column;
+    width: 378px;
+    height: 571px;
+    background-color: white;
+}
+
+#faixa{
+    background-color: #519D55;
+    height: 17px;
+    width: 100%;
+}
+
+
+#figura img{
+    width: 375px;
+    height: 375px;
+}
+
+#faixa_black{
+    background-color: black;
+    height: 23px;
+    text-align: center;
+}
+#faixa_black img{
+    position: relative;
+    bottom: 100%;
+}
+
+#descricao{
+    text-align: center;
+}
+
+#descricao p{
+    margin-top: 10%;
+}
+
+#tags{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+}
+.tag{
+    border-radius: 20px;
+    padding: 9px 20px;
+}
