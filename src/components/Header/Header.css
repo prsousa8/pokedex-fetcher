@@ -19,10 +19,10 @@ ul{
     padding: 0;
     gap: 20px;
 }
-ul li:nth-child(1){
+.menu-item {
     display: flex;
-    justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 .destaque{
@@ -32,9 +32,43 @@ ul li:nth-child(1){
     font-weight: bold;
 }
 
+.icons-menu{
+    display: none;
+}
+
 @media(max-width: 450px){
-    nav{
-        justify-content: center;
-        margin-inline: 0;
+   nav{
+        justify-content: space-between;
+        margin-inline: 50px;
+        flex-wrap: wrap;
     }
+    .icons-menu img{
+        width: 40px;
+    }
+    .icons-menu{
+        display: flex;
+    }
+    .menu-list {
+        list-style: none;
+        display: none; /* Oculto por padrão */
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        right: 0;
+        top: 70px;
+        background-color: #fff;
+        padding: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .menu-list.open {
+        display: flex; /* Exibe o menu quando o estado estiver 'aberto' */
+        margin-top: 20px;
+    }
+    .open{
+        display: none;
+    }
+    
 }
